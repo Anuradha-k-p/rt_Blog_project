@@ -17,10 +17,6 @@ console.log(ContextData);
 </div>
 
 
-    <div className="borderbottom">
-      <h1 className="side">Latest</h1>
-      </div>
-   
 
       <div className="middlecontainer">
         {ContextData.filter((item) =>  item.id >= 43 && item.id <= 45 && item.Category === "Food"  )
@@ -68,7 +64,7 @@ console.log(ContextData);
 
 
       <div className="maincontainer">
-        {/* left side parent */}
+  
 
         <div id="Lparent1" >
           <h1 className="side side2">Latest Articles</h1>
@@ -103,34 +99,10 @@ console.log(ContextData);
 
         <div className="middlecontainerright">
 
-          {/* popular right side parent */}
+    
 
           <div className="Rparent1">
             <h1 className="side2 side">Top Post</h1>
-            {/* {ContextData
-              .filter(
-                (item) => item.id === 34 && item.Category === "Food"
-              )
-              .map((item, index) => {
-                return (
-                  <div id="parent2" key={index}>
-                    <NavLink to={`/detail/${item.id}`} className="linkdes special-div">
-                      <img
-                        id="special-img"
-                        src={item.image}
-                        alt="not found"
-                        height="240px"
-                        width="390px"
-                      />
-                      <div className="special-description">
-                        <p>{item.Description.slice(0, 140) + "..."}</p>
-                        <h3 id="number">{index + 1}</h3>
-                      </div>
-
-                    </NavLink>
-                  </div>
-                );
-              })} */}
             {ContextData
               .filter(
                 (item) => item.id >= 35 && item.id <= 38 && item.Category === "Food"
