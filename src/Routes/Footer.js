@@ -6,6 +6,13 @@ function Footer(){
       <footer>
  
       <div className="footermedia">
+      <div className="pro-mediaicon">
+        <h1>THE</h1><br/>
+        <h1>SIREN</h1>
+     
+      </div>
+                       
+                
       <div >
           <ul className="footerlinks">
               <li>
@@ -33,15 +40,8 @@ function Footer(){
         <p><i className="fa-solid fa-phone"></i>0000000000</p>
         
           </div>
-        {/* <div id="footer-aboutus">
-         <h3>About Site:</h3>
-         <p>These is react blog project<br/>
-             made using React dynamic routing <br/>
-             concepts for tricks follow us<br/>
-         </p>
-          
-        </div> */}
-        <div className="pro-mediaicon">
+      
+        {/* <div className="pro-mediaicon">
                         <h3>Follow us:</h3> 
                         
                         <NavLink id="iconlink"><i className="fa-brands fa-square-instagram"></i></NavLink>
@@ -49,7 +49,7 @@ function Footer(){
                          <NavLink id="iconlink"><i className="fa-brands fa-facebook"></i></NavLink>
                          <NavLink id="iconlink"><i className="fa-brands fa-github"></i></NavLink>
                 </div>
-                
+                 */}
                 </div>
       </footer>
       
