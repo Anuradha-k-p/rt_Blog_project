@@ -1,0 +1,175 @@
+
+.footermedia{
+    width:98vw;
+    background-color: cadetblue;
+  }
+
+
+  footer{
+    height:auto;
+    gap:7px;
+   
+  }
+  .footerlinks{
+    gap: 10px;
+    display:flex;
+    flex-direction: column;
+  }
+  /* links in footer */
+  .link{
+    font-size: 20px;
+  
+  }
+  li{
+    list-style-type: none;
+  }
+  footer ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+    text-align: center;
+  
+  }
+   .pro-mediaicon{
+    text-align: center;
+    display: flex;
+  }
+  .footermedia .fa-brands{
+    font-size: 30px;
+  }
+  .footermedia{
+    display: flex;
+    justify-content: space-evenly;
+  
+  
+   
+  }
+  .fa-phone{
+    border: none;
+    background-color: lightgrey;
+    font-size: 25px;
+  }
+  .fa-envelope{
+    border: none;
+    background-color: lightgrey;
+    font-size: 25px;
+  }
+  .pro-mediaicon a{
+    margin-top: 6px;
+  }
+  
+  @media screen and (max-width:500px) and (min-width:280px){
+
+  
+  .pro-mediaicon h3{
+    display: block;
+  }
+  .pro-mediaicon{
+    align-items: center;
+    margin-top: -20px;
+  }
+  .footerlinks{
+    margin-top: -2px;
+  }
+
+footer{
+  height:auto;
+  gap:7px;
+ 
+}
+.footerlinks{
+  gap: 10px;
+}
+.link{
+  font-size: 12px;
+
+}
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+  text-align: center;
+
+}
+ .pro-mediaicon{
+  text-align: center;
+}
+.footermedia .fa-brands{
+  font-size: 20px;
+}
+.footermedia{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -15px;
+ 
+}
+.pro-mediaicon a{
+  margin-top: 6px;
+}
+.Advertise2{
+  width:98%;
+  margin: auto;
+}
+.footerlinks{
+  gap: 10px;
+  display:flex;
+  flex-direction: column;
+}
+/* links in footer */
+.link{
+  font-size: 20px;
+
+}
+li{
+  list-style-type: none;
+}
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+  text-align: center;
+
+}
+ .pro-mediaicon{
+  text-align: center;
+  display: flex;
+}
+.footermedia .fa-brands{
+  font-size: 30px;
+}
+.footermedia{
+  display: flex;
+  justify-content: space-between;
+
+
+ 
+}
+.fa-phone{
+  border: none;
+  background-color: lightgrey;
+  font-size: 25px;
+}
+.fa-envelope{
+  border: none;
+  background-color: lightgrey;
+  font-size: 25px;
+}
+.pro-mediaicon a{
+  margin-top: 6px;
+}
+#copyright-phone{
+  display: none;
+}
+#footer-aboutus{
+  display: none;
+}
+.footerlinks{
+  display: flex;
+  flex-direction: row;
+}
+.footermedia{
+  flex-direction: column;
+
+ 
+}
+  }
