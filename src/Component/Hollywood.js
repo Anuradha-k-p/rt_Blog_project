@@ -30,9 +30,7 @@ function Hollywood(){
 
     })} */}
 
-<div className="borderbottom">
-      <h1 className="side">Latest</h1>
-      </div>
+
    
 
       <div className="middlecontainer">
@@ -61,7 +59,7 @@ function Hollywood(){
     
     
 <div className="maincontainer">
-        {/* left side parent */}
+      
 
         <div id="Lparent1">
           <h1 className="side side2">Latest Articles</h1>
@@ -94,8 +92,7 @@ function Hollywood(){
 
     <div className="middlecontainerright">
     
-        {/* popular right side parent */}
-      
+     
         <div className="Rparent1">
           <h1 className="side2 side">Top Post</h1>
         
