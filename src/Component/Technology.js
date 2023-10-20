@@ -15,11 +15,6 @@ function Technology(){
 
     </div>
 
-    <div className="borderbottom">
-      <h1 className="side">Latest</h1>
-      </div>
-   
-
       <div className="middlecontainer">
         {ContextData.filter((item) =>  item.id >= 52 && item.id <= 54 && item.Category === "technology"  )
           .map((item, index) => {
@@ -63,7 +58,7 @@ function Technology(){
 
           
 <div className="maincontainer">
-        {/* left side parent */}
+   
 
         <div id="Lparent1">
           <h1 className="side side2">Latest Articles</h1>
@@ -95,7 +90,7 @@ function Technology(){
 
     <div className="middlecontainerright">
     
-        {/* popular right side parent */}
+       
       
         <div className="Rparent1">
           <h1 className="side2 side">Top Post</h1>
