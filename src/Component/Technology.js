@@ -1,3 +1,4 @@
+
 import { useContext } from "react"
 import { Store } from "../ContextCompo/ContextCompo"
 import { NavLink } from "react-router-dom";
@@ -10,8 +11,8 @@ function Technology(){
 
   return(
     <>
-   <h1 id="scroll-text">Technology.....</h1> 
     <div id="scroll-container">
+   <h1 id="scroll-text">Technology.....</h1> 
 
     </div>
 
