@@ -16,8 +16,9 @@
     flex-direction: column;
   }
   /* links in footer */
-  .link{
+  .DynamicLink{
     font-size: 20px;
+    text-decoration: none;
   
   }
   li{
@@ -33,7 +34,12 @@
    .pro-mediaicon{
     text-align: center;
     display: flex;
+    flex-direction: column;
   }
+  .pro-mediaicon p{
+    margin: 0;
+  }
+
   .footermedia .fa-brands{
     font-size: 30px;
   }
