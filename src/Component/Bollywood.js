@@ -1,3 +1,4 @@
+
 import { useContext } from "react"
 import { Store } from "../ContextCompo/ContextCompo";
 import { NavLink } from "react-router-dom";
@@ -82,7 +83,7 @@ function Bollywood(){
           
           {ContextData
             .filter(
-              (item) => item.id >= 77 && item.id <= 82 && item.Category === "Home"
+              (item) => item.id >= 7 && item.id <= 12 && item.Category === "Bollywood"
             )
             .map((item, index) => {
               return (
