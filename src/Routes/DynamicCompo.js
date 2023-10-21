@@ -31,7 +31,7 @@ function DynamicCompo(){
  
     return(
         <>
-        <h1>dynamic</h1>
+
         {/* {ContextData.filter((item)=> item.id === parseInt(id))
     
     .map((item,index)=>{
@@ -71,7 +71,7 @@ function DynamicCompo(){
 
             <div className="profile"><i className="fa-regular fa-user"></i> <span>Swapnali Pawar</span></div>
 
-          <div className="pro-mediaicon">
+          <div className="pro-mediaicon1">
                   <NavLink id="iconlink"><i className="fa-brands fa-square-instagram" to="https://www.instagram.com/"></i></NavLink>
                    <NavLink id="iconlink"><i className="fa-brands fa-linkedin"></i></NavLink>
                    <NavLink id="iconlink"><i className="fa-brands fa-facebook"></i></NavLink>
@@ -98,7 +98,8 @@ function DynamicCompo(){
               </div>
         )
       })}
-          {/* 3 horizontal div */}
+         <hr/>
+         
           <div className="borderbottom">
      
   
@@ -106,6 +107,7 @@ function DynamicCompo(){
       
    
       </div>
+      <hr/>
    
 
       <div className="middlecontainer">
@@ -132,7 +134,7 @@ function DynamicCompo(){
 
 
 
-
+      <hr/>
 
 
    <div className="btn">
