@@ -99,7 +99,7 @@ function Fitness(){
      
       {ContextData
         .filter(
-          (item) => item.id >= 77 && item.id <= 82 && item.Category === "Home"
+          (item) => item.id >= 67 && item.id <= 72 && item.Category === "Fitness"
         )
         .map((item, index) => {
           return (
