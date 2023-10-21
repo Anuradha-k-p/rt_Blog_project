@@ -1,3 +1,4 @@
+
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
 function Footer(){
@@ -7,8 +8,8 @@ function Footer(){
  
       <div className="footermedia">
       <div className="pro-mediaicon">
-        <h1>THE</h1><br/>
-        <h1>SIREN</h1>
+        <h1>THE SIREN</h1>
+        <p>Better Vision For  Better connection</p>
      
       </div>
                        
@@ -16,11 +17,11 @@ function Footer(){
       <div >
           <ul className="footerlinks">
               <li>
-          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/" className="link" >Home</NavLink></li>
+          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/" className="DynamicLink" >Home</NavLink></li>
               <li>
-          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Hollywood" className="link" >Hollywood</NavLink></li>
+          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Hollywood" className="DynamicLink" >Hollywood</NavLink></li>
               <li>
-          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Bollywood" className="link" >Bollywood</NavLink></li>
+          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Bollywood" className="DynamicLink" >Bollywood</NavLink></li>
       
               
       </ul>
@@ -28,16 +29,19 @@ function Footer(){
           <div >
             <ul className="footerlinks">
             <li>
-          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Technology"  className="link">Technology </NavLink></li>
+          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Technology"  className="DynamicLink">Technology </NavLink></li>
               <li>
-          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Fitness"  className="link">Fitness</NavLink></li>
+          <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Fitness"  className="DynamicLink">Fitness</NavLink></li>
               <li>
-              <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Food"  className="link">Food</NavLink></li>
+              <NavLink style={({isActive})=>({color:(isActive)?"red":"black"})} to="/Food"  className="DynamicLink">Food</NavLink></li>
             </ul>
           </div>
           <div id="copyright-phone">
           <p><i className="fa-regular fa-copyright"></i>Swapnali Pawar</p>
-        <p><i className="fa-solid fa-phone"></i>0000000000</p>
+
+        <p> <i class="fa-solid fa-envelope"></i>abc@gmail.com</p>
+
+        
         
           </div>
       
