@@ -114,7 +114,7 @@ function DynamicCompo(){
         {relatedItems.map((item, index) => {
             return (
               <div className="middlecontainerimage" key={index}>
-                   <NavLink to={`/detailpage/${item.id}`} className="linkdes linkdes2">
+                   <NavLink to={`/detail/${item.id}`} className="linkdes linkdes2">
                 <img
                   src={item.image}
                   alt="not found"
