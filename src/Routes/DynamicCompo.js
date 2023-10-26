@@ -69,7 +69,8 @@ function DynamicCompo(){
           <h1>{item.Title}</h1>
           <div className="profile-icons">
 
-            <div className="profile"><i className="fa-regular fa-user"></i> <span>Swapnali Pawar</span></div>
+            <div className="profile">  <i class="fa-regular fa-user-tie-hair-long"></i> <span>Swapnali Pawar</span></div>
+           
 
           <div className="pro-mediaicon1">
                   <NavLink id="iconlink"><i className="fa-brands fa-square-instagram" to="https://www.instagram.com/"></i></NavLink>
@@ -137,9 +138,9 @@ function DynamicCompo(){
       <hr/>
 
 
-   <div className="btn">
+   
     <button onClick={()=> Navigate(-1)} className="backbtn">Back</button>
-    </div>
+    
 
         </>
     )
