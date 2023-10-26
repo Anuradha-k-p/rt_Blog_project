@@ -1,5 +1,4 @@
 
-
 #icons{
 
     width:200px;
@@ -100,5 +99,17 @@
     margin-left: 40%;
     margin-bottom: 5%;
   }
+  
+  .fa-user-tie-hair-long{
+    color:black;
+    font-size: 30px;
+  }
 
   
+  @media screen and (max-width:500px) and (min-width:280px){
+
+  .Like-share{
+    margin-left:0px;
+    flex-direction: row;
+  }
+}
