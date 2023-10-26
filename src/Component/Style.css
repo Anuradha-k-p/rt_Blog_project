@@ -1,5 +1,11 @@
-
-
+/* 
+*{
+  padding: 0;
+  margin: 0;
+} */
+Body{
+  overflow-x: hidden;
+}
 #scroll-text {
   /* animation properties */
   -moz-transform: translateX(100%);
@@ -109,10 +115,10 @@ justify-content: space-between;
 margin-bottom: 20px;
 margin-left: 5em;
 }
-
+/* 
 .footermedia{
   width:96vw;
-}
+} */
 
 #title{
   text-align:center;
@@ -168,13 +174,13 @@ margin-left: 5em;
   margin-top: 60%;
 }
 
-
+/* 
 .display{
   display:none;
 }
 .hambergerlinks {
   display: none;
-}
+} */
 .linkdes2{
 flex-direction: column;
 
@@ -390,7 +396,7 @@ width: 20vw;
 /* ------ADD Section-------- */
 
   .Advertise{
-    height:700px;
+    height:950px;
     width:43vw;
     border: 2px solid black;
     margin-top: 4em;
@@ -425,6 +431,10 @@ width: 20vw;
   .maincontainer{
     flex-direction: column;
     justify-content: space-between;
+    /* box-sizing: border-box;
+    padding-left: 5%; */
+    align-items: center;
+    margin-bottom: 5%;
   }
   .btn{
     height:5vh;
@@ -435,7 +445,7 @@ width: 20vw;
   
   }
   
-    #navlink ul{
+    /* #navlink ul{
       display:none;
     }
     #navlink{
@@ -462,14 +472,14 @@ width: 20vw;
     display: none;
     gap:6px;
     
-    }
+    } */
    
-    .show{
+    /* .show{
       display:block;
     }
     .hide{
       display:none;
-    }
+    } */
 
   .Titleimages{
     flex-direction: column;
@@ -495,6 +505,9 @@ width: 20vw;
   }
   .middlecontainer{
     flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 2%;
   
    
   }
@@ -598,6 +611,7 @@ width: 20vw;
   
   .linkdes2{
     width:360px;
+    
   }
   .middlecontainerimage{
   
@@ -614,50 +628,6 @@ width: 20vw;
   .none{
     margin-top:-10px; 
   }
-  footer{
-    height:auto;
-    gap:7px;
-   
-  }
-  .footerlinks{
-    gap: 10px;
-  }
-  .link{
-    font-size: 12px;
-  
-  }
-  footer ul{
-    display: flex;
-    justify-content: space-between;
-    margin-left: -30px;
-    text-align: center;
-  
-  }
-   .pro-mediaicon{
-    text-align: center;
-  }
-  .footermedia .fa-brands{
-    font-size: 20px;
-  }
-  .footermedia{
-    display: flex;
-    justify-content: space-between;
-    margin-top: -15px;
-   
-  }
-  .pro-mediaicon a{
-    margin-top: 6px;
-  }
-  .Advertise2{
-    width:98%;
-    margin: auto;
-    display: none;
-  }
-  .footerlinks{
-    gap: 10px;
-    display:flex;
-    flex-direction: column;
-  }
 
 
 
@@ -671,68 +641,11 @@ width: 20vw;
   li{
     list-style-type: none;
   }
-  footer ul{
-    display: flex;
-    justify-content: space-between;
-    margin-left: -30px;
-    text-align: center;
-  
-  }
-   .pro-mediaicon{
-    text-align: center;
-    display: flex;
-  }
-  .footermedia .fa-brands{
-    font-size: 30px;
-  }
-  .footermedia{
-    display: flex;
-    justify-content: space-between;
-  
-  
-   
-  }
-  .fa-phone{
-    border: none;
-    background-color: lightgrey;
-    font-size: 25px;
-  }
-  .fa-envelope{
-    border: none;
-    background-color: lightgrey;
-    font-size: 25px;
-  }
-  .pro-mediaicon a{
-    margin-top: 6px;
-  }
-  #copyright-phone{
-    display: none;
-  }
-  #footer-aboutus{
-    display: none;
-  }
-  .footerlinks{
-    display: flex;
-    flex-direction: row;
-  }
-  .footermedia{
-    flex-direction: column;
-  
-   
-  }
+
   .Adtext2{
     margin-top: 60%;
   }
-  .pro-mediaicon h3{
-    display: block;
-  }
-  .pro-mediaicon{
-    align-items: center;
-    margin-top: -20px;
-  }
-  .footerlinks{
-    margin-top: -2px;
-  }
+ 
   .middlecontainerimage{
     margin: auto;
     flex-direction: column;
@@ -746,6 +659,9 @@ width: 20vw;
   @media screen and (min-width:503px) and (max-width:980px){
     .middlecontainer{
       flex-direction: column;
+      box-sizing: border-box;
+      padding-left: 1.7%;
+   
     }
     #Description2{
       width:70vw;
@@ -820,10 +736,7 @@ width: 20vw;
       flex-direction: column;
       flex-direction:column-reverse;
     }
-    .Like-share{
-      margin-left:0px;
-      flex-direction: row;
-    }
+   
    .Advertise2{
     height:75vh;
     width:95vw;
@@ -877,6 +790,7 @@ width: 20vw;
     .linkdes{
       width:93vw;
       gap:20px;
+    
     }
     .Advertise{
       margin: auto;
