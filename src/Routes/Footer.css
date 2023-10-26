@@ -1,4 +1,4 @@
-
+ 
 .footermedia{
     width:98vw;
     background-color: cadetblue;
@@ -175,6 +175,7 @@ footer ul{
 }
 .footermedia{
   flex-direction: column;
+  width: 100vw;
 
  
 }
