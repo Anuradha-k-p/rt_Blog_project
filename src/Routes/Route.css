@@ -83,7 +83,7 @@
   }
   .hambergerlinks{
     height:260px;
-    width:100vw;
+    width:99vw;
    margin-left: 0px;
     background-color: cadetblue;
     border:2px solid black;
@@ -104,7 +104,6 @@
       display:block; 
     }
   }
-
 
 
 
