@@ -57,6 +57,16 @@
     display: none;
   }
 
+  @media screen and (min-width:503px) and (max-width:980px){
+    .link{
+      font-size: 25px;
+      
+    }
+
+  }
+
+
+
 
   @media screen and (max-width:500px) and (min-width:280px){
     
@@ -103,6 +113,7 @@
     .fa-solid{
       display:block; 
     }
+
   }
 
 
